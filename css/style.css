@@ -89,7 +89,7 @@ h2,
 h3,
 h4 {
     letter-spacing: var(--spacing);
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     line-height: 1.25;
     margin-bottom: 0.75rem;
     font-family: var(--ff-primary);
@@ -184,7 +184,7 @@ main {
 /* Menu */
 
 .menu {
-    padding: 5rem 0;
+    padding: 1rem 0;
 }
 
 /* Banner */
@@ -192,6 +192,14 @@ main {
 .title {
     text-align: center;
     margin-bottom: 2rem;
+    border-radius: 100%;
+    display: flex;
+justify-content: center;}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
 }
 
 .underline {
@@ -246,7 +254,7 @@ main {
     background: transparent;
     border-color: var(--clr-gold);
     font-size: 1rem;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     margin: 0 0.5rem;
     letter-spacing: 1px;
     border-radius: var(--radius);
@@ -255,6 +263,34 @@ main {
     cursor: pointer;
     transition: var(--transition);
 }
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.information {
+    background: transparent;
+    border-color: var(--clr-gold);
+    font-size: 1rem;
+    /* text-transform: capitalize; */
+    margin: 0 0.5rem;
+    letter-spacing: 1px;
+    border-radius: var(--radius);
+    padding: 0.375rem 5rem;
+    color: var(--clr-gold);
+    cursor: pointer;
+    transition: var(--transition);
+}
+.information:hover {
+    background-color: #ddd;
+  }
+  .information-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
   
   /* Дополнительный стиль для контейнера, чтобы обеспечить прокрутку пальцем */
   .btn-container {

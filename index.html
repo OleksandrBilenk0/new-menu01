@@ -1,97 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="./css/all.min.css">
-</head>
+    <link rel="stylesheet" href="./css/all.min.css" />
+  </head>
 
-<body>
+  <body>
     <section class="menu">
-        <header class="title">
-            <h2>our menu</h2>
-            <div class="underline"></div>
-        </header>
+      <header class="title">
+        <img class="logo" src="./img/logo.jpg" alt="Sicily" />
+      </header>
+      
+      <nav class="information-container">
+        <button class="information" id="aboutUsBtn">Про нас</button>
+      </nav>
+      <div class="information-content" id="aboutUsContent">
+        <!-- Здесь будет информация о заведении -->
+      </div>
 
-        <nav class="btn-container">
-            <button class="filter-btn" type="button" data-id="all">all</button>
-            <button class="filter-btn" type="button" data-id="breakfast">breakfast</button>
-            <button class="filter-btn" type="button" data-id="lunch">lunch</button>
-            <button class="filter-btn" type="button" data-id="shakes">shakes</button>
-            <button class="filter-btn" type="button" data-id="dinner">dinner</button>
-            <button class="filter-btn" type="button" data-id="desserts">desserts</button>
-        </nav>
 
-        <main class="section-center">
-            <article class="menu-item">
-                <img class="photo" src="./img/item-1.jpeg" alt="buttermilk pancakes">
+      <nav class="btn-container">
+        <!-- <button class="filter-btn" type="button" data-id="about-us">Про нас</button> -->
+        <button class="filter-btn" type="button" data-id="all">Повне меню</button>
+        <button class="filter-btn" type="button" data-id="breakfast">Сніданки</button>
+        <button class="filter-btn" type="button" data-id="antypasti">Антипасті</button>
+        <button class="filter-btn" type="button" data-id="bruskets">Брускета-бар</button>
+        <button class="filter-btn" type="button" data-id="zakusky">Закуски</button>
+        <button class="filter-btn" type="button" data-id="salates">Салати</button>
+        <button class="filter-btn" type="button" data-id="hot-zakusky">Гарячі закуски</button>
+        <button class="filter-btn" type="button" data-id="first">Перші страви</button>
+        <button class="filter-btn" type="button" data-id="garnier">Гарніри</button>
+        <button class="filter-btn" type="button" data-id="pizza">Піца</button>
+        <button class="filter-btn" type="button" data-id="kalcone">Кальцоне</button>
+        <button class="filter-btn" type="button" data-id="ravioli">Равіолі</button>
+        <button class="filter-btn" type="button" data-id="pasta">Паста</button>
+        <button class="filter-btn" type="button" data-id="rizotto">Різотто</button>
+        <button class="filter-btn" type="button" data-id="for_big_company">Для великої компанії</button>
+        <button class="filter-btn" type="button" data-id="with_meet">Страви з м'яса</button>
+        <button class="filter-btn" type="button" data-id="fish">Риба та морепродукти</button>
+        <button class="filter-btn" type="button" data-id="deserts">Десерти</button>
+      </nav>
 
-                <div class="item-info">
-                    <header>
-                        <h4>buttermilk pancakes</h4>
-                        <h4 class="price">$15.99</h4>
-                    </header>
-                    <p class="item-text">
-                        I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever
-                        cold-pressed
-                    </p>
-                </div>
-            </article>
-        </main>
+      <main class="section-center">
+        <article class="menu-item">
+          <img
+            class="photo"
+            src="./img/item-1.jpeg"
+            alt="buttermilk pancakes"
+          />
 
+          <div class="item-info">
+            <header>
+              <h4>Жопа</h4>
+              <h4 class="price">Жопа</h4>
+            </header>
+            <p class="item-text">
+              I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock
+              freegan copper mug whatever cold-pressed
+            </p>
+          </div>
+        </article>
+      </main>
     </section>
 
     <footer></footer>
-    
+
     <!-- Javascript -->
-    <script>
-        const btnContainer = document.querySelector('.btn-container');
-
-let isDragging = false;
-let startPosition = 0;
-let currentTranslate = 0;
-
-btnContainer.addEventListener('touchstart', (e) => {
-  isDragging = true;
-  startPosition = e.touches[0].clientX - currentTranslate;
-});
-
-btnContainer.addEventListener('touchmove', (e) => {
-  if (isDragging) {
-    const currentPosition = e.touches[0].clientX;
-    const translate = currentPosition - startPosition;
-    currentTranslate = translate;
-    const slideIndex = Math.min(Math.max(Math.floor(-translate / 100), 0), totalBtns - 3);
-    showSlide(slideIndex);
-  }
-});
-
-btnContainer.addEventListener('touchend', () => {
-  isDragging = false;
-});
-
-function showSlide(slideIndex) {
-  const translate = -slideIndex * 100;
-  filterBtns.forEach((btn, index) => {
-    const position = index * 100 + translate;
-    if (position >= 0 && position < 300) {
-      btn.style.transform = `translateX(${position}%)`;
-    } else {
-      btn.style.transform = 'translateX(-100%)';
-    }
-  });
-}
-
-// Показываем первые три кнопки
-showSlide(currentSlide);
-
-    </script>
     <script src="./js/app.js"></script>
-    
-</body>
-
+  </body>
 </html>
