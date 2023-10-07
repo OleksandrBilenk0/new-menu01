@@ -285,11 +285,37 @@ justify-content: center;}
 .information:hover {
     background-color: #ddd;
   }
-  .information-content {
+
+.information-content p{
+    margin: 0;
+    width: 70%;
+    color: #c59d5f;
+}
+.class {
+    height: 60px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    justify-content: space-evenly;
+}
+
+
+  .information-footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    align-items: center;
+  }
+
+  .phone {
+    display: flex;
     justify-content: center;
     text-align: center;
+    margin-top: 1rem;
+  }
+  .phone a{
+    color: black;
   }
   
   /* Дополнительный стиль для контейнера, чтобы обеспечить прокрутку пальцем */
