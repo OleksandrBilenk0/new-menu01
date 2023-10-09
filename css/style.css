@@ -292,7 +292,7 @@ justify-content: center;}
 .information-content p{
     margin: 0;
     width: 70%;
-    color: #c59d5f;
+    color: #ffffff;
 }
 .class {
     height: 60px;
@@ -319,6 +319,7 @@ justify-content: center;}
   }
   .phone a{
     color: black;
+    font-size: 1.2rem;
   }
   
   /* Дополнительный стиль для контейнера, чтобы обеспечить прокрутку пальцем */

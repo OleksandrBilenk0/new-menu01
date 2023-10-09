@@ -6,7 +6,7 @@ const menu = [
         title: "Вівсянка з пармезаном",
         category: "Сніданки",
         price: 75,
-        img: "./img/photo_5323369585958833648_y.jpg",
+        img: "./img/soon.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     {
@@ -22,7 +22,7 @@ const menu = [
         title: "Великий італійський сніданок",
         category: "Сніданки",
         price: 215,
-        img: "./img/photo_5323369585958833648_y.jpg",
+        img: "./img/soon.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     {
@@ -117,7 +117,7 @@ const menu = [
     },
     {
         id: 3,
-        title: "З роздбіфом",
+        title: "З ростбіфом",
         category: "Брускета-бар",
         price: 85,
         img: "./img/photo_5323369585958833704_y.jpg",
@@ -343,7 +343,7 @@ const menu = [
         category: "Піца",
         price: 185,
         img: "./img/item-9.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `Томати, сир моцарела, свіжий базелік, соус <br> ( 380 г )`,
     },
     {
         id: 9,
@@ -786,8 +786,8 @@ window.addEventListener("DOMContentLoaded", function () {
       <div class="phone"><p><a href="tel:+380689525758">+38 068 952 57 58</a></p></div>
 
       <div class="information-footer">
-          <a href="https://instagram.com/trattoria_sicily?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr"><img style="width: 50px; height: 50px;" src="./img/instagram.png" alt="instagram"></a>
-          <a href="https://www.facebook.com/Sicily.borispol"><img style="width: 50px; height: 50px;" src="./img/facebook.png" alt="facebook"></a>
+          <a href="https://instagram.com/trattoria_sicily?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr"><img style="width: 40px; height: 40px;" src="./img/instagram.png" alt="instagram"></a>
+          <a href="https://www.facebook.com/Sicily.borispol"><img style="width: 40px; height: 40px;" src="./img/facebook.png" alt="facebook"></a>
         </div>
         
     `;
