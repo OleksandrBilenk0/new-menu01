@@ -6,48 +6,48 @@ const menu = [
         title: "Вівсянка з пармезаном",
         category: "Сніданки",
         price: 75,
-        img: "./img/soon.png",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        img: "./img/soon1.png",
+        desc: `Вівсяні пластівці відварені на куриному бульйоні (за бажанням, можна на воді), додається вершкове масло та тертий пармезан.`,
     },
     {
         id: 1,
         title: "Чіабата з лососем",
         category: "Сніданки",
         price: 205,
-        img: "./img/01сніданки/chiabata-salmon.jpg",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        img: "./img/soon1.png",
+        desc: `Свіжоспечена чіабата, слабосолений лосось, листя салату, сир Чедер, Авокадо,томати ,соус Цезар.`,
     },
     {
         id: 1,
         title: "Великий італійський сніданок",
         category: "Сніданки",
         price: 215,
-        img: "./img/soon.png",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        img: "./img/soon1.png",
+        desc: `Хліб тостовий, моцарела, помідор, соус песто , балик, яйце, картопля краш, листя салату. Чудово підійде для двох.`,
     },
     {
         id: 1,
         title: "Фрітата з овочами",
         category: "Сніданки",
         price: 130,
-        img: "./img/photo_5323369585958833648_y.jpg",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        img: "./img/soon1.png",
+        desc: `Яйця, вершки, броколі, томати, перець, зелень, сир, спеції.`,
     },
     {
         id: 1,
         title: "Сирники",
         category: "Сніданки",
         price: 145,
-        img: "./img/01сніданки/syrnyki.jpg",
-        desc: `Зроблені за секретним рецептом тітки Мартіни`,
+        img: "./img/soon1.png",
+        desc: `Зроблені за секретним рецептом тітки Мартіни. Тітка тримає цей рецепт в секреті . Лише деякі племіннички знають секретні складові цих неймовірих сирників.`,
     },
     {
         id: 1,
         title: "Скрембл з прошутто",
         category: "Сніданки",
         price: 90,
-        img: "./img/photo_5323369585958833648_y.jpg",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        img: "./img/soon1.png",
+        desc: `Ніжна глазунья в поєднанні зі справжнів італійським прошутто та сіжими томатами .`,
     },
     // Антипасті
     {
@@ -55,31 +55,31 @@ const menu = [
         title: "Сирна антипасті",
         category: "Антипасті",
         price: 229,
-        img: "./img/photo_5323369585958833673_y.jpg",
-        desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
+        img: "./img/soon1.png",
+        desc: `Сир пармезан, сир брі, сир горгонзола , моцарела баффало ,оливки, каперси , виноград, горіх грецький, мед, джем.`,
     },
     {
         id: 2,
         title: "М'ясна антипасті",
         category: "Антипасті",
         price: 305,
-        img: "./img/photo_5323369585958833673_y.jpg",
-        desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
+        img: "./img/soon1.png",
+        desc: `Сальтичон , Парма, Прошутто, Чорізо, томати в'ялені, маслини , каперси ,грінки , томати чері.`,
     },
     {
         id: 2,
         title: "Антипасті сет",
         category: "Антипасті",
         price: 520,
-        img: "./img/photo_5323369585958833673_y.jpg",
-        desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
+        img: "./img/soon1.png",
+        desc: ``,
     },
     {
         id: 2,
         title: "В'ялені томати",
         category: "Антипасті",
         price: 69,
-        img: "./img/photo_5323369585958833673_y.jpg",
+        img: "./img/soon1.png",
         desc: `Ціна вказана за 50г, та може змінюватись залежно від ваги`,
     },
     {
@@ -87,7 +87,7 @@ const menu = [
         title: "В'ялені оливки",
         category: "Антипасті",
         price: 35,
-        img: "./img/photo_5323369585958833673_y.jpg",
+        img: "./img/soon1.png",
         desc: `Ціна вказана за 50г, та може змінюватись залежно від ваги`,
     },
     {
@@ -95,7 +95,7 @@ const menu = [
         title: "В'ялені каперси",
         category: "Антипасті",
         price: 29,
-        img: "./img/photo_5323369585958833673_y.jpg",
+        img: "./img/soon1.png",
         desc: `Ціна вказана за 50г, та може змінюватись залежно від ваги`,
     },
     {
@@ -103,7 +103,7 @@ const menu = [
         title: "В'ялені маслини",
         category: "Антипасті",
         price: 35,
-        img: "./img/photo_5323369585958833673_y.jpg",
+        img: "./img/soon1.png",
         desc: `Ціна вказана за 50г, та може змінюватись залежно від ваги`,
     },
     // Брускета-бар
@@ -112,31 +112,31 @@ const menu = [
         title: "Капрезе",
         category: "Брускета-бар",
         price: 85,
-        img: "./img/photo_5323369585958833704_y.jpg",
-        desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
+        img: "./img/soon1.png",
+        desc: `Хрусткий багет, свіжі томати, сир моцарела, соус Песто, свіжий базилік.`,
     },
     {
         id: 3,
         title: "З ростбіфом",
         category: "Брускета-бар",
         price: 85,
-        img: "./img/photo_5323369585958833704_y.jpg",
-        desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
+        img: "./img/soon1.png",
+        desc: `Хрусткий багет, соус Цезар, в'ялені томати, Ростбіф, кінза.`,
     },
     {
         id: 3,
         title: "З лососем",
         category: "Брускета-бар",
         price: 85,
-        img: "./img/photo_5323369585958833704_y.jpg",
-        desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
+        img: "./img/soon1.png",
+        desc: `Хрусткий багет , крем-сир, слабосолений лосоль , каперси, свіжий базилік.`,
     },
     {
         id: 3,
         title: "З прошутто",
         category: "Брускета-бар",
         price: 85,
-        img: "./img/photo_5323369585958833704_y.jpg",
+        img: "./img/soon1.png",
         desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
     },
     {
@@ -144,8 +144,8 @@ const menu = [
         title: "Всі чотири",
         category: "Брускета-бар",
         price: 315,
-        img: "./img/photo_5323369585958833704_y.jpg",
-        desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
+        img: "./img/soon1.png",
+        desc: ``,
     },
     // Закуски
     {
@@ -153,7 +153,7 @@ const menu = [
         title: "Карпачо з телятини",
         category: "Закуски",
         price: 235,
-        img: "./img/item-4.jpeg",
+        img: "./img/soon1.png",
         desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
     },
     {
@@ -161,7 +161,7 @@ const menu = [
         title: "Карпачо з лосося",
         category: "Закуски",
         price: 295,
-        img: "./img/item-4.jpeg",
+        img: "./img/soon1.png",
         desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
     },
     // Салати
@@ -170,7 +170,7 @@ const menu = [
         title: "Фітнес",
         category: "Салати",
         price: 205,
-        img: "./img/item-5.jpeg",
+        img: "./img/soon1.png",
         desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
     },
     {
@@ -178,7 +178,7 @@ const menu = [
         title: "Цезар з куркою",
         category: "Салати",
         price: 225,
-        img: "./img/item-5.jpeg",
+        img: "./img/soon1.png",
         desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
     },
     {
@@ -186,7 +186,7 @@ const menu = [
         title: "Парма",
         category: "Салати",
         price: 225,
-        img: "./img/item-5.jpeg",
+        img: "./img/soon1.png",
         desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
     },
     {
@@ -194,7 +194,7 @@ const menu = [
         title: "Вітелло тонато",
         category: "Салати",
         price: 249,
-        img: "./img/item-5.jpeg",
+        img: "./img/soon1.png",
         desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
     },
     {
@@ -202,7 +202,7 @@ const menu = [
         title: "З креветками та авокадо",
         category: "Салати",
         price: 295,
-        img: "./img/item-5.jpeg",
+        img: "./img/soon1.png",
         desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
     },
     {
@@ -210,7 +210,7 @@ const menu = [
         title: "Теплий з телятиною",
         category: "Салати",
         price: 259,
-        img: "./img/item-5.jpeg",
+        img: "./img/soon1.png",
         desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
     },
     {
@@ -218,7 +218,7 @@ const menu = [
         title: "Латук",
         category: "Салати",
         price: 199,
-        img: "./img/item-5.jpeg",
+        img: "./img/soon1.png",
         desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
     },
     {
@@ -226,7 +226,7 @@ const menu = [
         title: "Овочевий",
         category: "Салати",
         price: 155,
-        img: "./img/item-5.jpeg",
+        img: "./img/soon1.png",
         desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
     },
     // Гарячі закуски
@@ -235,7 +235,7 @@ const menu = [
         title: "Рибні палички",
         category: "Гарячі закуски",
         price: 119,
-        img: "./img/item-5.jpeg",
+        img: "./img/soon1.png",
         desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
     },
     {
@@ -243,7 +243,7 @@ const menu = [
         title: "Аранчіні",
         category: "Гарячі закуски",
         price: 135,
-        img: "./img/item-5.jpeg",
+        img: "./img/soon1.png",
         desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
     },
     {
@@ -251,7 +251,7 @@ const menu = [
         title: "Креветка в кокосовій стружці",
         category: "Гарячі закуски",
         price: 395,
-        img: "./img/item-5.jpeg",
+        img: "./img/soon1.png",
         desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
     },
     {
@@ -259,7 +259,7 @@ const menu = [
         title: "Жульєн з мідіями",
         category: "Гарячі закуски",
         price: 165,
-        img: "./img/item-5.jpeg",
+        img: "./img/soon1.png",
         desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
     },
     {
@@ -267,7 +267,7 @@ const menu = [
         title: "Баклажани пармеджано",
         category: "Гарячі закуски",
         price: 160,
-        img: "./img/item-5.jpeg",
+        img: "./img/soon1.png",
         desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
     },
     {
@@ -275,7 +275,7 @@ const menu = [
         title: "Сир фрі",
         category: "Гарячі закуски",
         price: 105,
-        img: "./img/item-5.jpeg",
+        img: "./img/soon1.png",
         desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
     },
     // Перші страви
@@ -284,7 +284,7 @@ const menu = [
         title: "Курячий бульйон з домашньою локшиною",
         category: "Перші страви",
         price: 87,
-        img: "./img/item-7.jpeg",
+        img: "./img/soon1.png",
         desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
     },
     {
@@ -292,7 +292,7 @@ const menu = [
         title: "Міністроне на основі особуко",
         category: "Перші страви",
         price: 165,
-        img: "./img/item-7.jpeg",
+        img: "./img/soon1.png",
         desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
     },
     {
@@ -300,7 +300,7 @@ const menu = [
         title: "Сирний крем суп",
         category: "Перші страви",
         price: 135,
-        img: "./img/item-7.jpeg",
+        img: "./img/soon1.png",
         desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
     },
     // Гарніри
@@ -309,7 +309,7 @@ const menu = [
         title: "Картопля фрі",
         category: "Гарніри",
         price: 75,
-        img: "./img/item-8.jpeg",
+        img: "./img/soon1.png",
         desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
     },
     {
@@ -317,7 +317,7 @@ const menu = [
         title: "Картопляне пюре з пармезаном",
         category: "Гарніри",
         price: 75,
-        img: "./img/item-8.jpeg",
+        img: "./img/soon1.png",
         desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
     },
     {
@@ -325,7 +325,7 @@ const menu = [
         title: "Картопля з беконом та зеленню",
         category: "Гарніри",
         price: 85,
-        img: "./img/item-8.jpeg",
+        img: "./img/soon1.png",
         desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
     },
     {
@@ -333,7 +333,7 @@ const menu = [
         title: "Овочі гриль",
         category: "Гарніри",
         price: 140,
-        img: "./img/item-8.jpeg",
+        img: "./img/soon1.png",
         desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
     },
     // Піца
@@ -342,7 +342,7 @@ const menu = [
         title: "Маргарита",
         category: "Піца",
         price: 185,
-        img: "./img/item-9.jpeg",
+        img: "./img/soon1.png",
         desc: `Томати, сир моцарела, свіжий базелік, соус <br> ( 380 г )`,
     },
     {
@@ -350,7 +350,7 @@ const menu = [
         title: "BBQ",
         category: "Піца",
         price: 310,
-        img: "./img/item-9.jpeg",
+        img: "./img/soon1.png",
         desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
     {
@@ -358,7 +358,7 @@ const menu = [
         title: "Вулкан",
         category: "Піца",
         price: 465,
-        img: "./img/item-9.jpeg",
+        img: "./img/soon1.png",
         desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
     {
@@ -366,7 +366,7 @@ const menu = [
         title: "Салямі",
         category: "Піца",
         price: 259,
-        img: "./img/item-9.jpeg",
+        img: "./img/soon1.png",
         desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
     {
@@ -374,7 +374,7 @@ const menu = [
         title: "Гавайська",
         category: "Піца",
         price: 255,
-        img: "./img/item-9.jpeg",
+        img: "./img/soon1.png",
         desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
     {
@@ -382,7 +382,7 @@ const menu = [
         title: "Капрічозе",
         category: "Піца",
         price: 285,
-        img: "./img/item-9.jpeg",
+        img: "./img/soon1.png",
         desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
     {
@@ -390,7 +390,7 @@ const menu = [
         title: "Пепероні",
         category: "Піца",
         price: 269,
-        img: "./img/item-9.jpeg",
+        img: "./img/soon1.png",
         desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
     {
@@ -398,7 +398,7 @@ const menu = [
         title: "Ростбіф",
         category: "Піца",
         price: 329,
-        img: "./img/item-9.jpeg",
+        img: "./img/soon1.png",
         desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
     {
@@ -406,7 +406,7 @@ const menu = [
         title: "Чотири сири",
         category: "Піца",
         price: 280,
-        img: "./img/item-9.jpeg",
+        img: "./img/soon1.png",
         desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
     {
@@ -414,7 +414,7 @@ const menu = [
         title: "З прошутто",
         category: "Піца",
         price: 310,
-        img: "./img/item-9.jpeg",
+        img: "./img/soon1.png",
         desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
     // Кальцоне
@@ -423,7 +423,7 @@ const menu = [
         title: "Кальцоне з м'ясом",
         category: "Кальцоне",
         price: 259,
-        img: "./img/item-10.jpeg",
+        img: "./img/soon1.png",
         desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
     {
@@ -431,7 +431,7 @@ const menu = [
         title: "Кальцоне з сиром",
         category: "Кальцоне",
         price: 210,
-        img: "./img/item-10.jpeg",
+        img: "./img/soon1.png",
         desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
     // Равіолі
@@ -440,7 +440,7 @@ const menu = [
         title: "Равіолі з телятиною",
         category: "Равіолі",
         price: 215,
-        img: "./img/item-11.jpg",
+        img: "./img/soon1.png",
         desc: `Ricotta is fantastic in desserts, and this cake is no exception. Begin this recipe 1 day ahead.`,
     },
     {
@@ -448,7 +448,7 @@ const menu = [
         title: "Равіолі з лососем",
         category: "Равіолі",
         price: 297,
-        img: "./img/item-11.jpg",
+        img: "./img/soon1.png",
         desc: `Ricotta is fantastic in desserts, and this cake is no exception. Begin this recipe 1 day ahead.`,
     },
     // Паста
@@ -457,7 +457,7 @@ const menu = [
         title: "Паста карбонара",
         category: "Паста",
         price: 185,
-        img: "./img/item-12.jpg",
+        img: "./img/soon1.png",
         desc: `You will need a kitchen blowtorch for this delicious dessert recipe.`,
     },
     {
@@ -465,7 +465,7 @@ const menu = [
         title: "Паста балоньєзе",
         category: "Паста",
         price: 189,
-        img: "./img/item-12.jpg",
+        img: "./img/soon1.png",
         desc: `You will need a kitchen blowtorch for this delicious dessert recipe.`,
     },
     {
@@ -473,7 +473,7 @@ const menu = [
         title: "Паста нері",
         category: "Паста",
         price: 279,
-        img: "./img/item-12.jpg",
+        img: "./img/soon1.png",
         desc: `You will need a kitchen blowtorch for this delicious dessert recipe.`,
     },
     {
@@ -481,7 +481,7 @@ const menu = [
         title: "Паста кватро формаджі",
         category: "Паста",
         price: 160,
-        img: "./img/item-12.jpg",
+        img: "./img/soon1.png",
         desc: `You will need a kitchen blowtorch for this delicious dessert recipe.`,
     },
     {
@@ -489,7 +489,7 @@ const menu = [
         title: "Паста з білими грибами та куркою",
         category: "Паста",
         price: 190,
-        img: "./img/item-12.jpg",
+        img: "./img/soon1.png",
         desc: `You will need a kitchen blowtorch for this delicious dessert recipe.`,
     },
     {
@@ -497,7 +497,7 @@ const menu = [
         title: "Лазанья балоньєзе",
         category: "Паста",
         price: 205,
-        img: "./img/item-12.jpg",
+        img: "./img/soon1.png",
         desc: `You will need a kitchen blowtorch for this delicious dessert recipe.`,
     },
     {
@@ -505,7 +505,7 @@ const menu = [
         title: "Лазанья карбонара",
         category: "Паста",
         price: 197,
-        img: "./img/item-12.jpg",
+        img: "./img/soon1.png",
         desc: `You will need a kitchen blowtorch for this delicious dessert recipe.`,
     },
     // Ризотто
@@ -514,7 +514,7 @@ const menu = [
         title: "Ризотто з грибами",
         category: "Ризотто",
         price: 169,
-        img: "./img/item-13.jpg",
+        img: "./img/soon1.png",
         desc: `Zero waste tip: "When it comes to storing perishables like dairy, the freezer is your best friends. Milk and yoghurt can be stored in ice cube trays and popped out to use in smoothies." - Ronni Kahn.`,
     },
     {
@@ -522,7 +522,7 @@ const menu = [
         title: "Ризотто з морепродуктами",
         category: "Ризотто",
         price: 290,
-        img: "./img/item-13.jpg",
+        img: "./img/soon1.png",
         desc: `Zero waste tip: "When it comes to storing perishables like dairy, the freezer is your best friends. Milk and yoghurt can be stored in ice cube trays and popped out to use in smoothies." - Ronni Kahn.`,
     },
     // Для великої компанії
@@ -531,7 +531,7 @@ const menu = [
         title: "Сет м'ясний",
         category: "Для великої компанії",
         price: 885,
-        img: "./img/item-1.jpeg",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     {
@@ -539,7 +539,7 @@ const menu = [
         title: "Сет фрі",
         category: "Для великої компанії",
         price: 515,
-        img: "./img/14компанія/02.jpg",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     // Страви з м'яса
@@ -548,7 +548,7 @@ const menu = [
         title: "Куряче філе в кисло-солодкому соусі з овачами гриль",
         category: "Страви з м'яса",
         price: 179,
-        img: "./img/item-1.jpeg",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     {
@@ -556,7 +556,7 @@ const menu = [
         title: "Індичка з манго та фісташкою",
         category: "Страви з м'яса",
         price: 279,
-        img: "./img/item-1.jpeg",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     {
@@ -564,7 +564,7 @@ const menu = [
         title: "Курча табака",
         category: "Страви з м'яса",
         price: 225,
-        img: "./img/item-1.jpeg",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     {
@@ -572,7 +572,7 @@ const menu = [
         title: "Шатобріан",
         category: "Страви з м'яса",
         price: 370,
-        img: "./img/item-1.jpeg",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     {
@@ -580,7 +580,7 @@ const menu = [
         title: "Медальйони з телятини",
         category: "Страви з м'яса",
         price: 385,
-        img: "./img/item-1.jpeg",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     {
@@ -588,7 +588,7 @@ const menu = [
         title: "Стейк рібай з хрусткою картоплею",
         category: "Страви з м'яса",
         price: 440,
-        img: "./img/item-1.jpeg",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     {
@@ -596,7 +596,7 @@ const menu = [
         title: "Куряча грудка під соусом песто",
         category: "Страви з м'яса",
         price: 215,
-        img: "./img/item-1.jpeg",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     {
@@ -604,7 +604,7 @@ const menu = [
         title: "Медальйони зі свинини з картопляним пюре",
         category: "Страви з м'яса",
         price: 229,
-        img: "./img/item-1.jpeg",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     // Риба та морепродукти
@@ -613,7 +613,7 @@ const menu = [
         title: "Форель",
         category: "Риба та морепродукти",
         price: 305,
-        img: "./img/item-1.jpeg",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     {
@@ -621,7 +621,7 @@ const menu = [
         title: "Стейк з лосося",
         category: "Риба та морепродукти",
         price: 395,
-        img: "./img/item-1.jpeg",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     {
@@ -629,7 +629,7 @@ const menu = [
         title: "Соте з морепродуктів",
         category: "Риба та морепродукти",
         price: 390,
-        img: "./img/item-1.jpeg",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     {
@@ -637,7 +637,7 @@ const menu = [
         title: "Запечена скумбрія",
         category: "Риба та морепродукти",
         price: 205,
-        img: "./img/item-1.jpeg",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     // Десерти
@@ -646,7 +646,7 @@ const menu = [
         title: "Шоколадний фондан",
         category: "Десерти",
         price: 135,
-        img: "./img/item-1.jpeg",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     {
@@ -654,7 +654,7 @@ const menu = [
         title: "Ягідний чізкейк",
         category: "Десерти",
         price: 125,
-        img: "./img/item-1.jpeg",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     {
@@ -662,7 +662,7 @@ const menu = [
         title: "Морозиво",
         category: "Десерти",
         price: 87,
-        img: "./img/item-1.jpeg",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
     
@@ -751,43 +751,43 @@ window.addEventListener("DOMContentLoaded", function () {
     aboutUsContent.innerHTML = `
       <h2></h2>
       <div class="class">
-      <img style="width: 40px; height: 40px;" src="./img/banquet.png" alt="instagram">
+      <img src="./img/banquet.png" alt="instagram">
       <p>Банкети, фуршети, кейтеринг</p></div>
       
       <div class="class">
-      <img style="width: 60px; height: 60px;" src="./img/pets.png" alt="instagram">
+      <img src="./img/pets.png" alt="instagram">
       <p>Завжди раді вашим чотирилапим друзям</p></div>
       
       <div class="class">
-      <img style="width: 20px; height: 20px;" src="./img/discount.png" alt="instagram">
+      <img src="./img/discount.png" alt="instagram">
       <p>Знижка 10% кожного понеділка на улюблену пасту</p>
       </div>
 
       <div class="class">
-      <img style="width: 20px; height: 20px;" src="./img/discount.png" alt="instagram">
+      <img src="./img/discount.png" alt="instagram">
       <p>Знижка 5% за відмітку в сторіс з кодовим словом</p>
       </div>
 
       <div class="class">
-      <img style="width: 50px; height: 50px;" src="./img/pngegg.png" alt="instagram">
+      <img src="./img/pngegg.png" alt="instagram">
       <p>Кожний четвер вечір фільмів</p>
       </div>
 
       <div class="class">
-      <img style="width: 30px; height: 30px;" src="./img/pngegg (1).png" alt="instagram">
+      <img src="./img/pngegg (1).png" alt="instagram">
       <p>Транслюємо найцікавіші спортивні події</p>
       </div>
 
       <div class="class">
-      <img style="width: 50px; height: 50px;" src="./img/pngwing.com.png" alt="instagram">
+      <img src="./img/pngwing.com.png" alt="instagram">
       <p>Доставка страв до дверейвашого будинку</p>
       </div>
 
       <div class="phone"><p><a href="tel:+380689525758">+38 068 952 57 58</a></p></div>
 
       <div class="information-footer">
-          <a href="https://instagram.com/trattoria_sicily?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr"><img style="width: 40px; height: 40px;" src="./img/instagram.png" alt="instagram"></a>
-          <a href="https://www.facebook.com/Sicily.borispol"><img style="width: 40px; height: 40px;" src="./img/facebook.png" alt="facebook"></a>
+          <a href="https://instagram.com/trattoria_sicily?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr"><img style="width: 50px; height: 50px;" src="./img/instagram.png" alt="instagram"></a>
+          <a href="https://www.facebook.com/Sicily.borispol"><img style="width: 50px; height: 50px;" src="./img/facebook.png" alt="facebook"></a>
         </div>
         
     `;
@@ -813,4 +813,10 @@ function toggleAboutUsInfo() {
 // Добавляем обработчик события на кнопку
 aboutUsBtn.addEventListener('click', toggleAboutUsInfo);
 
+
+  
+  
+  
+  
+  
   
