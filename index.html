@@ -1,83 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Menu</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="./css/all.min.css" />
-  </head>
+<html lang="ua">
 
-  <body>
-    <!-- <div class="flag" id="myElement">
-      <div class="green"></div>
-      <div class="wite"></div>
-      <div class="red"></div>
-    </div> -->
-    
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu</title>
+  <link rel="shortcut icon" href="./img/logo.jpg" type="image/png">
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/game15.css">
+  <link rel="stylesheet" href="./css/snow.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./css/all.min.css" />
+</head>
 
-    <section class="menu">
-      <header class="title">
-        <img class="logo" src="./img/logo.jpg" alt="Sicily" />
-      </header>
-      
-      <nav class="information-container">
-        <button class="information" id="aboutUsBtn">Про нас</button>
-      </nav>
-      <div class="information-content" id="aboutUsContent">
-        <!-- Здесь будет информация о заведении -->
-        
+<body>
+  <!-- SNOW -->
+  <div class="snowflakes" aria-hidden="true">
+    <div class="snowflake">
+      <img src="./img/flower1.png" alt="" style="width: 50px; height: 50
+      .3px;">
+    </div>
+    <div class="snowflake">
+      <img src="./img/flower.png" alt="" style="width: 50px; height: 50px;">
+    </div>
+    <div class="snowflake">
+      <img src="./img/flower1.png" alt="" style="width: 50px; height: 50px;">
+    </div>
+    <div class="snowflake">
+      <img src="./img/flower.png" alt="" style="width: 50px; height: 50px;">
+    </div>
+    <div class="snowflake">
+      <img src="./img/flower1.png" alt="" style="width: 50px; height: 50px;">
+    </div>
+    <div class="snowflake">
+      <img src="./img/flower.png" alt="" style="width: 50px; height: 50px;">
+    </div>
+    <div class="snowflake">
+      <img src="./img/flower1.png" alt="" style="width: 50px; height: 50px;">
+    </div>
+    <div class="snowflake">
+      <img src="./img/flower.png" alt="" style="width: 50px; height: 50px;">
+    </div>
+    <div class="snowflake">
+      <img src="./img/flower1.png" alt="" style="width: 50px; height: 50px;">
+    </div>
+    <div class="snowflake">
+      <img src="./img/flower.png" alt="" style="width: 50px; height: 50px;">
+    </div>
+  </div>
+  <header class="title">
+    <img class="logo" src="./img/logo.jpg" alt="Sicily" />
+  </header>
+
+  <nav class="information-container">
+    <button class="information" id="aboutUsBtn">Про нас</button>
+  </nav>
+  <div class="information-content" id="aboutUsContent">
+    <!-- Здесь будет информация о заведении -->
+
+  </div>
+
+  <div class="games-container">
+    <nav class="game-container">
+      <button class="game" id="gameBtn">Зіграй поки чекаєш</button>
+    </nav>
+    <div class="game-content" id="gameContent">
+      <!-- Здесь будет игра -->
+    </div>
+  </div>
+
+<!-- Дитяче меню -->
+  <button class="menu2-btn" id="toggleMenu2Btn">Меню для дітей</button>
+
+  <section class="menu2" id="menu2Section" style="display: none; background-repeat: no-repeat; background-size: cover;">
+    <nav class="menu2btn-container">
+      <button class="filter2-btn" type="button" data-id="all2">Повне меню</button>
+      <button class="filter2-btn" type="button" data-id="breakfast">Перші страви</button>
+      <button class="filter2-btn" type="button" data-id="main_dishes">Основні страви</button>
+      <button class="filter2-btn" type="button" data-id="mini_pizza">Міні піца</button>
+      <button class="filter2-btn" type="button" data-id="drinks">Напої</button>
+    </nav>
+
+    <main class="section2-center">
+      <article class="menu2-item">
+        <img class="photo2" src="./img/soon1.png" alt="buttermilk pancakes" />
+        <img src="./img/sticker.webp" alt="">
+        <div class="item2-info">
+          <header>
+            <h4></h4>
+            <h4 class="price2"></h4>
+          </header>
+          <p class="item2-text">
+            I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock
+            freegan copper mug whatever cold-pressed
+          </p>
+        </div>
+      </article>
+    </main>
+  </section>
+
+<!-- Загальне меню -->
+  <button class="menu1-btn" id="toggleMenuBtn">Меню</button>
+
+  <section class="menu" id="menuSection" style="display: none; background-repeat: no-repeat; background-size: cover;">
+    <nav class="btn-container">
+      <button class="filter-btn" type="button" data-id="all">Повне меню</button>
+      <button class="filter-btn" type="button" data-id="breakfast">Сніданки</button>
+      <button class="filter-btn" type="button" data-id="antypasti">Антипасті</button>
+      <button class="filter-btn" type="button" data-id="bruskets">Брускета-бар</button>
+      <button class="filter-btn" type="button" data-id="zakusky">Закуски</button>
+      <button class="filter-btn" type="button" data-id="salates">Салати</button>
+      <button class="filter-btn" type="button" data-id="hot-zakusky">Гарячі закуски</button>
+      <button class="filter-btn" type="button" data-id="first">Перші страви</button>
+      <button class="filter-btn" type="button" data-id="garnier">Гарніри</button>
+      <button class="filter-btn" type="button" data-id="pizza">Піца</button>
+      <button class="filter-btn" type="button" data-id="kalcone">Кальцоне</button>
+      <button class="filter-btn" type="button" data-id="ravioli">Равіолі</button>
+      <button class="filter-btn" type="button" data-id="pasta">Паста</button>
+      <button class="filter-btn" type="button" data-id="rizotto">Різотто</button>
+      <button class="filter-btn" type="button" data-id="for_big_company">Для великої компанії</button>
+      <button class="filter-btn" type="button" data-id="with_meet">Страви з м'яса</button>
+      <button class="filter-btn" type="button" data-id="fish">Риба та морепродукти</button>
+      <button class="filter-btn" type="button" data-id="deserts">Десерти</button>
+    </nav>
+
+    <main class="section-center">
+      <article class="menu-item">
+        <img class="photo" src="./img/soon1.png" alt="buttermilk pancakes" />
+        <img src="./img/sticker.webp" alt="">
+        <div class="item-info">
+          <header>
+            <h4></h4>
+            <h4 class="price"></h4>
+          </header>
+          <p class="item-text">
+            I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock
+            freegan copper mug whatever cold-pressed
+          </p>
+        </div>
+      </article>
+    </main>
+  </section>
+
+  <footer>
+    <section class="section-footer">
+      <div class="social-web">
+        <a href="https://instagram.com/trattoria_sicily?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr"><img style="width: 50px; height: 50px; border-radius: 6px;" src="./img/instagram.png" alt="instagram"></a>
+        <a href="https://www.facebook.com/Sicily.borispol"><img style="width: 50px; height: 50px; border-radius: 50%; border: 1px solid white" src="./img/facebook.png" alt="facebook"></a>
       </div>
-
-
-      <nav class="btn-container">
-        <!-- <button class="filter-btn" type="button" data-id="about-us">Про нас</button> -->
-        <button class="filter-btn" type="button" data-id="all">Повне меню</button>
-        <button class="filter-btn" type="button" data-id="breakfast">Сніданки</button>
-        <button class="filter-btn" type="button" data-id="antypasti">Антипасті</button>
-        <button class="filter-btn" type="button" data-id="bruskets">Брускета-бар</button>
-        <button class="filter-btn" type="button" data-id="zakusky">Закуски</button>
-        <button class="filter-btn" type="button" data-id="salates">Салати</button>
-        <button class="filter-btn" type="button" data-id="hot-zakusky">Гарячі закуски</button>
-        <button class="filter-btn" type="button" data-id="first">Перші страви</button>
-        <button class="filter-btn" type="button" data-id="garnier">Гарніри</button>
-        <button class="filter-btn" type="button" data-id="pizza">Піца</button>
-        <button class="filter-btn" type="button" data-id="kalcone">Кальцоне</button>
-        <button class="filter-btn" type="button" data-id="ravioli">Равіолі</button>
-        <button class="filter-btn" type="button" data-id="pasta">Паста</button>
-        <button class="filter-btn" type="button" data-id="rizotto">Різотто</button>
-        <button class="filter-btn" type="button" data-id="for_big_company">Для великої компанії</button>
-        <button class="filter-btn" type="button" data-id="with_meet">Страви з м'яса</button>
-        <button class="filter-btn" type="button" data-id="fish">Риба та морепродукти</button>
-        <button class="filter-btn" type="button" data-id="deserts">Десерти</button>
-      </nav>
-      
-      <main class="section-center">
-        <article class="menu-item">
-          <img
-            class="photo"
-            src="./img/soon1.png"
-            alt="buttermilk pancakes"
-          />
-<img src="./img/sticker.webp" alt="">
-          <div class="item-info">
-            <header>
-              <h4></h4>
-              <h4 class="price"></h4>
-            </header>
-            <p class="item-text">
-              I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock
-              freegan copper mug whatever cold-pressed
-            </p>
-          </div>
-        </article>
-      </main>
+      <div class="phone">
+        <p><a href="tel:+380689525758">+38 (068) -952-57-58</a></p>
+      </div>
     </section>
+  </footer>
 
-    <footer></footer>
+  <!-- Javascript -->
+  <script src="./js/app.js"></script>
+  <script src="./js/childMenu.js"></script>
+  <script src="./js/game15.js"></script>
+</body>
 
-    <!-- Javascript -->
-    <script src="./js/app.js"></script>
-  </body>
 </html>
