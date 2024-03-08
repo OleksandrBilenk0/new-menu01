@@ -6,16 +6,13 @@
 /* The alert message box */
 .alert {
     width: 100vw;
-    height: 722px;
+    height: 1200px;
     top: -5px;
     position: absolute;
     padding: 20px;
-    background-color: #ec847c;
     color: white;
-    background-image: url(../img/293_depositphotos_136243092_m_2015.jpg);
-    background-repeat: repeat-y;
-    /* background-size: cover; */
-    background-position-x: -123px;
+    background: url(../img/293_depositphotos_136243092_m_2015.jpg) no-repeat center center fixed;
+    background-size: cover;
   }
   
   /* The close button */
