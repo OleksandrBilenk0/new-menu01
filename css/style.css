@@ -3,6 +3,38 @@
 
 /* Variables */
 
+/* The alert message box */
+.alert {
+    width: 100vw;
+    height: 722px;
+    top: -5px;
+    position: absolute;
+    padding: 20px;
+    background-color: #ec847c;
+    color: white;
+    background-image: url(../img/293_depositphotos_136243092_m_2015.jpg);
+    background-repeat: repeat-y;
+    /* background-size: cover; */
+    background-position-x: -123px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+
 :root {
     /* dark shades of primary color*/
     --clr-primary-1: hsl(205, 86%, 17%);
