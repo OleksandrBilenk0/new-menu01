@@ -3,8 +3,8 @@
 
 /* Variables */
 
-/* The alert message box */
-.alert {
+/* March 8 */
+/* .alert {
     width: 100%;
     height: 1200px;
     top: -5px;
@@ -16,7 +16,6 @@
     background-size: cover;
   }
   
-  /* The close button */
   .closebtn {
     margin-left: 15px;
     color: white;
@@ -28,10 +27,9 @@
     transition: 0.3s;
   }
   
-  /* When moving the mouse over the close button */
   .closebtn:hover {
     color: black;
-  }
+  } */
 
 :root {
     /* dark shades of primary color*/
